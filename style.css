@@ -15,7 +15,7 @@ body { font-family:Helvetica, Arial, sans-serif;
 }
 
 header{
-  padding-top: 40px;
+  padding-top: 70px;
 }
 
 #logo {
@@ -30,7 +30,7 @@ header{
 }
 
 #tagline {
-  float: right;
+  float: left;
   padding-top: 12px;
   padding-left: 28px;
 }
@@ -41,17 +41,20 @@ header{
   color: white;
 }
 
-ul#menu {
+#menu ul {
   list-style: none;
+  padding-top: 30px;
 }
 
-ul#menu li {
+#menu ul li {
     float: left;
+    padding-left: 30px;
 }
 
-ul#menu il a {
+#menu ul li a {
   font-weight: lighter;
-  font-size: 20px;
+  font-size: 30px;
+  color: #FFFFFF;
   text-decoration: none;
-  color: #FFF;
+
 }
