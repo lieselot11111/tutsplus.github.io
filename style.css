@@ -44,7 +44,7 @@ header{
   color: white;
 }
 
-#menu ul {
+/**-- #menu ul {
   list-style: none;
   padding-top: 30px;
   padding-bottom: 50px;
@@ -52,7 +52,8 @@ header{
 
 #menu ul li {
     float: left;
-    padding-right: 75px;
+    padding-right: 30px;
+    padding-left:30px;
 }
 
 #menu ul li a {
@@ -60,7 +61,32 @@ header{
   font-size: 20px;
   color: #FFFFFF;
   text-decoration: none;
+} --**/
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 16px;
+    overflow: hidden;
 }
+
+#menu li {
+    float: left;
+}
+
+#menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #f4f4f4;
+}
+
 
 /**---CONTENT---**/
 
@@ -128,9 +154,9 @@ header{
     float: left;
     margin-left: 55px;
     margin-top: 35px;
-    background: #d4d6d3;
-    border: 1px solid #BEBDBD;
+    background: #d9f3fc;
     padding: 15px 15px 35px 15px;
+    border-radius: 10px;
 }
 
 /**---Sidebar---**/
@@ -149,7 +175,15 @@ header{
 
 #sidebar ul li a {
     font-size: 14px;
-    color: #393838;
+    color: #FFFFFF;
+}
+
+#sidebar ul li a:hover {
+  color: #267fa0;
+}
+
+#popular ul li {
+  color: #FFFFFF;
 }
 
 #subscribe ul li {
@@ -188,9 +222,15 @@ li#twitter {
 a.button {
     color: #393838;
     text-decoration: none;
-    background: url(images/backrground_09.jpg) repeat-x;
+    background: #5ec2e7;
     margin-left: 20px;
     padding: 13px 23px;
+    border-radius: 10px;
+}
+
+a.button:hover {
+  color: white;
+  background: #267fa0;
 }
 
 /**--FOOTER--**/
