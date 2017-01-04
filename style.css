@@ -1,0 +1,57 @@
+
+body, div, h1, h2, h3, h4, h5, h6, p, ul, img {margin:0px; padding:0px; }
+
+
+body { font-family:Helvetica, Arial, sans-serif;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+#main {
+  background: url(images/backrground_02.gif) repeat-x;
+}
+
+header{
+  padding-top: 40px;
+}
+
+#logo {
+  background: url(images/storywhite.png) no-repeat;
+  height: 84px;
+  width: 235px;
+  float:left;
+}
+
+#logo h1 {
+  text-indent: -9999px;
+}
+
+#tagline {
+  float: right;
+  padding-top: 12px;
+  padding-left: 28px;
+}
+
+#tagline h3 {
+  font-size: 20px;
+  font-weight: lighter;
+  color: white;
+}
+
+ul#menu {
+  list-style: none;
+}
+
+ul#menu li {
+    float: left;
+}
+
+ul#menu il a {
+  font-weight: lighter;
+  font-size: 20px;
+  text-decoration: none;
+  color: #FFF;
+}
