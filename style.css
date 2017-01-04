@@ -47,11 +47,11 @@ header{
 #menu ul {
   list-style: none;
   padding-top: 30px;
+  padding-bottom: 50px;
 }
 
 #menu ul li {
     float: left;
-    padding-left: 30px;
     padding-right: 75px;
 }
 
