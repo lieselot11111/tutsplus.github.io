@@ -116,3 +116,67 @@ header{
   padding-top: 10px;
   padding-bottom: 14px;
 }
+
+/**---TWEE KOLOMMEN---**/
+
+#content {
+    width: 510px;
+    float: left;
+}
+
+#sidebar {
+  float: left;
+  margin-left: 55px;
+  margin-top: 35px;
+  background: #d4d6d3;
+  border: 1px solid #BEBDBD;
+  padding: 15px;
+}
+
+/**---Sidebar---**/
+#sidebar h3 {
+    font-size: 24px;
+    color: #044055;
+    font-weight: normal;
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+
+#sidebar ul {
+    list-style: none;
+    padding-bottom: 25px;
+}
+
+#sidebar ul li a {
+    font-size: 14px;
+    color: #393838;
+}
+
+#subscribe ul li {
+    padding-bottom: 5px;
+    padding-left: 35px;
+}
+
+#subscribe ul li a {
+    font-size: 16px;
+}
+
+/*-ICONEN-*/
+
+
+li#facebook {
+    background: url(images/facebook.png) no-repeat;
+
+}
+
+li#linkedin {
+    background: url(images/linkedin.png) no-repeat;
+
+}
+
+li#twitter {
+    background: url(images/twitter.png) no-repeat;
+
+}
+
+/**---BUTTON---**/
