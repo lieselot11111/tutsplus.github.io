@@ -3,12 +3,15 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, img {margin:0px; padding:0px; }
 
 
 body { font-family:Helvetica, Arial, sans-serif;
+  background-color: ##ebe8e8;
 }
 
 .container {
   width: 800px;
   margin: 0 auto;
 }
+
+/**---HEADER---**/
 
 #main {
   background: url(images/backrground_02.gif) repeat-x;
@@ -49,12 +52,67 @@ header{
 #menu ul li {
     float: left;
     padding-left: 30px;
+    padding-right: 75px;
 }
 
 #menu ul li a {
   font-weight: lighter;
-  font-size: 30px;
+  font-size: 20px;
   color: #FFFFFF;
   text-decoration: none;
+}
 
+/**---CONTENT---**/
+
+#content h2 {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #015878;
+    padding-top: 25px;
+}
+
+#content h3 {
+    font-size: 24px;
+    font-weight: lighter;
+    color: #444444;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#content h4 {
+    font-size: 18px;
+    color: #373737;
+    font-weight: normal;
+}
+
+#content p {
+    font-size: 14px;
+    color: #595858;
+    padding-top: 20px;
+}
+
+#content small {
+    font-size: 12px;
+    color: #373737;
+}
+
+#content a {
+    color: #0f6c8d;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/**--NEWS--**/
+
+#news {
+  padding-top: 10px;
+}
+
+#news h3 {
+  padding-bottom: 10px;
+}
+
+#news p {
+  padding-top: 10px;
+  padding-bottom: 14px;
 }
