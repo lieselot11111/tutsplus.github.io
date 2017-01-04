@@ -125,12 +125,12 @@ header{
 }
 
 #sidebar {
-  float: left;
-  margin-left: 55px;
-  margin-top: 35px;
-  background: #d4d6d3;
-  border: 1px solid #BEBDBD;
-  padding: 15px;
+    float: left;
+    margin-left: 55px;
+    margin-top: 35px;
+    background: #d4d6d3;
+    border: 1px solid #BEBDBD;
+    padding: 15px 15px 35px 15px;
 }
 
 /**---Sidebar---**/
@@ -161,6 +161,10 @@ header{
     font-size: 16px;
 }
 
+#contributors {
+  margin-bottom: 10px;
+}
+
 /*-ICONEN-*/
 
 
@@ -180,3 +184,11 @@ li#twitter {
 }
 
 /**---BUTTON---**/
+
+a.button {
+    color: #393838;
+    text-decoration: none;
+    background: url(images/backrground_09.jpg) repeat-x;
+    margin-left: 20px;
+    padding: 13px 23px;
+}
